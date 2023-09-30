@@ -12,21 +12,22 @@ const Wrapper = styled.div`
 `;
 
 const TextWithBlur = styled.div`
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.7);
   text-align: center;
-  font-family: "SF Pro Rounded";
   border-radius: 50px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.27);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.09);
+  user-select: none;
 `;
 
 const DateText = styled(TextWithBlur)`
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 400;
 `;
 
 const TimeText = styled(TextWithBlur)`
-  font-size: 5rem;
+  font-size: 6.5rem;
   font-weight: 700;
+  font-family: "SF Pro Rounded Bold";
 `;
 
 const Timestamp = () => {

@@ -5,6 +5,7 @@ import Video1 from "../assets/video-1.mp4";
 import Video2 from "../assets/video-2.mp4";
 import Video3 from "../assets/video-3.mp4";
 import Timestamp from "./components/Timestamp";
+import Footer from "./components/Footer";
 
 type Props = {};
 
@@ -21,6 +22,7 @@ const App = ({}: Props) => {
           type="video/mp4"
         />
       </Video>
+      <Footer />
     </Container>
   );
 };
