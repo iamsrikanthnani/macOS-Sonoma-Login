@@ -1,7 +1,7 @@
 self.__precacheManifest = [
   {
-    "revision": "2e736e2a245615abf30d",
-    "url": "/macOS-Sonoma-Login/static/js/main.2e736e2a.chunk.js"
+    "revision": "df311ca533960155ebb2",
+    "url": "/macOS-Sonoma-Login/static/js/main.df311ca5.chunk.js"
   },
   {
     "revision": "2981538dd718ef902032",
@@ -36,7 +36,7 @@ self.__precacheManifest = [
     "url": "/macOS-Sonoma-Login/static/media/toolbar.ea32c95a.png"
   },
   {
-    "revision": "dbf76bbd27a826d7b990de0e5721af51",
+    "revision": "b414f53a7b71cb966d3dda81fc84fdfb",
     "url": "/macOS-Sonoma-Login/index.html"
   }
 ];
