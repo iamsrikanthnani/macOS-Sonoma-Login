@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/macOS-Sonoma-Login/precache-manifest.6bf3c509008d9b8b9cb815f13c99950f.js"
+  "/macOS-Sonoma-Login/precache-manifest.9faeec4d0b39daa0a64ce8cb6cf05cec.js"
 );
 
 workbox.clientsClaim();
