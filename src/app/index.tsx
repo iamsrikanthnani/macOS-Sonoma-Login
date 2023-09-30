@@ -6,6 +6,7 @@ import Video2 from "../assets/video-2.mp4";
 import Video3 from "../assets/video-3.mp4";
 import Timestamp from "./components/Timestamp";
 import Footer from "./components/Footer";
+import Header from "./components/Header";
 
 type Props = {};
 
@@ -14,6 +15,7 @@ const videos = [Video1, Video2, Video3];
 const App = ({}: Props) => {
   return (
     <Container>
+      <Header />
       <Timestamp />
       {/* to Select a random video from the 'videos' array */}
       <Video autoPlay muted loop>
