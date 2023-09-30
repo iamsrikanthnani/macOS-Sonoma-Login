@@ -8,7 +8,7 @@ const Wrapper = styled.div`
   justify-content: center;
   position: absolute;
   width: 100vw;
-  top: 7rem;
+  top: 5rem;
 `;
 
 const TextWithBlur = styled.div`
@@ -20,12 +20,12 @@ const TextWithBlur = styled.div`
 `;
 
 const DateText = styled(TextWithBlur)`
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 500;
 `;
 
 const TimeText = styled(TextWithBlur)`
-  font-size: 7rem;
+  font-size: 5rem;
   font-weight: 700;
 `;
 
