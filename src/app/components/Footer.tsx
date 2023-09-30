@@ -30,7 +30,6 @@ const Name = styled.div`
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.09);
   color: rgba(255, 255, 255, 0.7);
   user-select: none;
-  font-family: "SF Pro Rounded Bold";
 `;
 
 const LoginInput = styled.input`
